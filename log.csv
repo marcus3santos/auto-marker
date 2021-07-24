@@ -1,0 +1,20 @@
+Date,Time,Full Name,Grade,Comment,Description
+N/A,N/A,Endless Anderson,N/A,Duplicated_Name,Student name is mentioned more than once
+N/A,N/A,Endless Anderson,N/A,Duplicated_Name,Student name is mentioned more than once
+N/A,N/A,Endless Anderson,N/A,Duplicated_Name,Student name is mentioned more than once
+N/A,N/A,Thor Odinson,N/A,Duplicated_Name,Student name is mentioned more than once
+N/A,N/A,Thor Odinson,N/A,Duplicated_Name,Student name is mentioned more than once
+Nov 7 2019,447 PM,Mohammed bin Rashid Al Maktoum,100.0,OK,No runtime errors
+Nov 7 2019,447 PM,Tim Tigertongue,100.0,OK,No runtime errors
+Nov 7 2019,447 PM,Timb Handerson,62.5,OK,No runtime errors
+Nov 6 2019,1218 PM,Tony Twohands,75.0,OK,No runtime errors
+Nov 5 2019,102 AM,Alex Adams,0,Runtime_Error,READ error during LOAD:  end of file on #<SB-INT:FORM-TRACKING-STREAM for "file /home/nabil/Desktop/Lisp/lisp-automation-tool/Example-assignments-folder/486192-137409 - Alex Adams - Nov 5. 2019 102 AM/sol-example.lisp" {100353D4B3}>  (in form starting at line: 5. column: 0. position: 65)
+Nov 5 2019,102 AM,Dan Door,0,Runtime_Error,Execution of a form compiled with errors.Form:  ((FORMAT T "Withdraw complete~%"))Compile-time error:  illegal function call
+Nov 6 2019,828 PM,Spot Swordholder,0,Runtime_Error,The function COMMON-LISP-USER::DEPOSIT is undefined.
+Nov 6 2019,751 PM,Zain Zodson,0,Runtime_Error,arithmetic error DIVISION-BY-ZERO signalledOperation was (/ 3 0).
+Nov 5 2019,131 PM,Alucard Vampireson,0,Runtime_Error,The variable IMPORT is unbound.
+Nov 5 2019,131 PM,Patrick Pearson,0,Wrong_Type,Student has submitted a file with type .py instead of .lisp
+May 20 2021,6_01 PM,Marcus Santos,100.0,OK,No runtime errors
+Nov 7 2019,447 PM,Flow Over,0,Runtime_Error,Control stack exhausted (no more space for function call frames).This is probably due to heavily nested or infinitely recursive functioncalls. or a tail call that SBCL cannot or has not optimized away.PROCEED WITH CAUTION.
+N/A,N/A,Space bar Hyper,N/A,No_File,Student has not submitted a file
+N/A,N/A,Cain Cooper,N/A,No_File,Student has not submitted a file

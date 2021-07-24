@@ -1,0 +1,13 @@
+- Student name: Marcus Santos
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+READ error during LOAD:
+
+  end of file on #<SB-INT:FORM-TRACKING-STREAM for "file /home/nabil/Desktop/Lisp/lisp-automation-tool/test-cases-example.lisp" {1002205923}>
+
+  (in form starting at line: 20, column: 0, position: 421)
+
+- Test cases results:
+NIL

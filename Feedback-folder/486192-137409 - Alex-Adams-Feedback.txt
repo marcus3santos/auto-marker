@@ -1,0 +1,13 @@
+- Student name: Alex Adams
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+READ error during LOAD:
+
+  end of file on #<SB-INT:FORM-TRACKING-STREAM for "file /home/nabil/Desktop/Lisp/lisp-automation-tool/Example-assignments-folder/486192-137409 - Alex Adams - Nov 5, 2019 102 AM/sol-example.lisp" {100353D4B3}>
+
+  (in form starting at line: 5, column: 0, position: 65)
+
+- Test cases results:
+NIL

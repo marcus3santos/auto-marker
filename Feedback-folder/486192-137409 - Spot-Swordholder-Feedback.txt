@@ -1,0 +1,13 @@
+- Student name: Spot Swordholder
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+The function COMMON-LISP-USER::DEPOSIT is undefined.
+
+- Test cases results:
+((Pass TEST-WITHDRAW (EQUAL (WITHDRAW 60) 10))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 80)))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 10001)))
+ (Pass TEST-WITHDRAW (EQUAL (WITHDRAW 20) 70))
+ (Pass TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))

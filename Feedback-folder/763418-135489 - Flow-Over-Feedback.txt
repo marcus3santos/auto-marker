@@ -1,0 +1,18 @@
+- Student name: Flow Over
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+Control stack exhausted (no more space for function call frames).
+This is probably due to heavily nested or infinitely recursive function
+calls, or a tail call that SBCL cannot or has not optimized away.
+
+PROCEED WITH CAUTION.
+
+- Test cases results:
+((Pass TEST-DEPOSIT (NOT (DEPOSIT 10001)))
+ (Pass TEST-WITHDRAW (EQUAL (WITHDRAW 60) 10))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 80)))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 10001)))
+ (Pass TEST-WITHDRAW (EQUAL (WITHDRAW 20) 70))
+ (Pass TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))

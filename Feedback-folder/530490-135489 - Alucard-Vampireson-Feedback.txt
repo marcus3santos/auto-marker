@@ -1,0 +1,9 @@
+- Student name: Alucard Vampireson
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+The variable IMPORT is unbound.
+
+- Test cases results:
+NIL

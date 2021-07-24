@@ -1,0 +1,13 @@
+- Student name: Dan Door
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+Execution of a form compiled with errors.
+Form:
+  ((FORMAT T "Withdraw complete~%"))
+Compile-time error:
+  illegal function call
+
+- Test cases results:
+NIL

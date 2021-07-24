@@ -1,0 +1,16 @@
+- Student name: Timb Handerson
+
+- Auto-Mark comment: OK
+
+- Auto-Mark description:
+No runtime errors
+
+- Test cases results:
+((Pass TEST-DEPOSIT (EQUAL (DEPOSIT 20) 130))
+ (Pass TEST-DEPOSIT (EQUAL (DEPOSIT 10) 110))
+ (Pass TEST-DEPOSIT (NOT (DEPOSIT 10001)))
+ (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 60) 10))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 80)))
+ (Pass TEST-WITHDRAW (NOT (WITHDRAW 10001)))
+ (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 20) 70))
+ (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))

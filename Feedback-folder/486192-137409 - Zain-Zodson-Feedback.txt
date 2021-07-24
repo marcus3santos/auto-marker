@@ -1,0 +1,10 @@
+- Student name: Zain Zodson
+
+- Auto-Mark comment: Runtime_Error
+
+- Auto-Mark description:
+arithmetic error DIVISION-BY-ZERO signalled
+Operation was (/ 3 0).
+
+- Test cases results:
+NIL
