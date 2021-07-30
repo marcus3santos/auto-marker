@@ -3,7 +3,7 @@
 AUTO-MARKER is an automated assignments marker for lisp programs where the students' assignment solutions are exported from D2L.
 # Installation
 - To run this tool, you will need to have installed a lisp programming environment. For more info on how to do that, go to [this link](https://marcus3santos.github.io/lisp-programming-environment.html).
-- To install this tool, simply download this repository or do `git pull [INSERT REPO URL HERE]`.
+- To install this tool, simply download this repository or do `git clone [INSERT REPO URL HERE]`.
 # Usage
 ### Prerequisites:
 To use this tool, the following files are considered in the same directory as the `automrk.lisp` file:
