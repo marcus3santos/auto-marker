@@ -32,7 +32,7 @@ Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indi
 ```
 ---
 ### Marking:
-First, the auto tool will need to be loaded into your lisp environment with the following:
+First, the auto-marker will need to be loaded into your lisp environment with the following:
 ``` lisp
 CL-USER> (load "/automrk.lisp")
 To load "cl-fad":
