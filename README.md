@@ -45,7 +45,7 @@ Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indi
 
 Type the following command on a shell:
 ```shell
-sbcl --noinform --load automrk.fasl --eval '(mark-assignments submissions-dir is-zipped grades-export-dir test-cases-dir)' --quit
+$ sbcl --noinform --load automrk.fasl --eval '(mark-assignments submissions-dir is-zipped grades-export-dir test-cases-dir)' --quit
 ```
 where 
 1. `submissions-dir` is a string representing the location for the folder or zip file that holds the folders for student's submissions.
