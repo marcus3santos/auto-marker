@@ -44,13 +44,13 @@ Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indi
 
 Type the following command on a shell:
 ```shell
-$ sbcl --noinform --load automrk.lisp --eval '(mark-assignments submissions-dir is-zipped grades-export-dir test-cases-dir weights)' --quit
+$ sbcl --noinform --load automrk.lisp --eval '(mark-assignments submissions-dir is-zipped grades-export-file test-cases-file weights)' --quit
 ```
 where 
 1. `submissions-dir` is a string representing the location for the folder or zip file that holds the folders for student's submissions.
 2. `is-zipped` is a boolean that informs the tool whether the `submissions-dir` is a folder or a zip file. Put `t` if the `submissions-dir` is a zip file and `nil` if it is just a regular folder. 
-3. `grades-export-dir` is a string representing the location for the D2L csv grades export folder.
-4. `test-cases-dir` is a string representing the location for the test cases lisp file.
+3. `grades-export-file` is a string representing the location for the D2L grades export csv file.
+4. `test-cases-file` is a string representing the location for the test cases lisp file.
 5. `weights` (optional) is a list of pairs `(<function-name> <weight>)`, where: `<function-name>` is the name of the test function defined in the unit test, and `<weight>` is a number from [0, 100] representing the weight of that function in the calculation of the total mark. Note: the sum of weight values has to be equal to 100. If `weights` is not provided, then the tested functions have equal weight, and the total mark is calculated by dividing the number of correct results by the total number of test cases.
 
 Below is an example of a command for marking *unzipped* student assignments located in the folder **/Users/m3santos/Google-Drive/tmp/auto-marker/Example-assignments-folder/**, and associating weights of 30 and 70 to test functions `test-fact` and `test-avg`, respectively:
