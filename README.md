@@ -8,7 +8,10 @@ You need to install [Steel Bank Common Lisp](http://www.sbcl.org/). For more inf
 
 
 # Installation
-1. Download this repository or do `git clone [INSERT REPO URL HERE]`.
+1. Download this repository or type the following command on a shell
+ ```shell
+ $ git clone https://github.com/marcus3santos/auto-marker.git
+ ```
 2. On a shell
   ```shell
   $ cd automrk
