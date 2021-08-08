@@ -8,16 +8,13 @@ You need to install [Steel Bank Common Lisp](http://www.sbcl.org/). For more inf
 
 
 # Installation
-1. Download this repository or type the following command on a shell
+1. Type the following commands on a shell
  ```shell
  $ git clone https://github.com/marcus3santos/auto-marker.git
+ $ cd automrk
+ $ emacs -nw automrk.lisp
  ```
-2. On a shell
-  ```shell
-  $ cd automrk
-  $ emacs -nw automrk.lisp
-  ```
-3. From within Emacs, to compile the source lisp file **automrk.lisp** into the binary fast loading file **automrk.fasl** , press `Ctrl-c Ctrl-k`. 
+2. From within Emacs, to compile the source lisp file **automrk.lisp** into the binary fast loading file **automrk.fasl** , press `Ctrl-c Ctrl-k`. 
   
 # Usage
 ### Prerequisites:
