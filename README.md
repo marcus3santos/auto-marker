@@ -8,13 +8,10 @@ You need to install [Steel Bank Common Lisp](http://www.sbcl.org/). For more inf
 
 
 # Installation
-1. Type the following commands on a shell
+Type the following commands on a shell
  ```shell
  $ git clone https://github.com/marcus3santos/auto-marker.git
- $ cd automrk
- $ emacs -nw automrk.lisp
  ```
-2. From within Emacs, to compile the source lisp file **automrk.lisp** into the binary fast loading file **automrk.fasl** , press `Ctrl-c Ctrl-k`. 
   
 # Usage
 ### Prerequisites:
@@ -47,7 +44,7 @@ Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indi
 
 Type the following command on a shell:
 ```shell
-$ sbcl --noinform --load automrk.fasl --eval '(mark-assignments submissions-dir is-zipped grades-export-dir test-cases-dir weights)' --quit
+$ sbcl --noinform --load automrk.lisp --eval '(mark-assignments submissions-dir is-zipped grades-export-dir test-cases-dir weights)' --quit
 ```
 where 
 1. `submissions-dir` is a string representing the location for the folder or zip file that holds the folders for student's submissions.
