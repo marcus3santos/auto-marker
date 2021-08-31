@@ -1,5 +1,5 @@
 # AUTO-MARKER
-AUTO-MARKER is an automated marker for lisp program assignments where the students' assignment solutions are exported from D2L.
+AUTO-MARKER is an automated marker for lisp program assignments where the students' assignment solutions have been exported from D2L.
 
 # Dependencies
 
