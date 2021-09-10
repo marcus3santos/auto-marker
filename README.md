@@ -62,11 +62,9 @@ $ sbcl --noinform --load automrk.lisp --eval '(mark-assignments  "/Users/m3santo
 ### Output
 After using the tool, there would be two files generated in the same directory as the `automrk.lisp`. Those files are:
 1. A log file of format `/log.csv` that will hold information about the files and their execution by the AUTO-MARKER. This information will be of this type: *In this example, the student **Thor Odinson** made a stack overflow error. Therefore, in the log file, his submission is handled as such*
-
-|Date|Time|Full Name|Grade|Comment|Description|
-|----------|-------|------------|---|--------------|-----------|
-|Nov 7 2019|4:47 PM|Thor Odinson|0.0|Stack_Overflow|Control stack exhausted (no more space for function call frames).This is probably due to heavily nested or infinitely recursive functioncalls. or a tail call that SBCL cannot or has not optimized away.PROCEED WITH CAUTION.
-
+   |Date|Time|Full Name|Grade|Comment|Description|
+   |----------|-------|------------|---|--------------|-----------|
+   |Nov 7 2019|4:47 PM|Thor Odinson|0.0|Stack_Overflow|Control stack exhausted (no more space for function call frames).This is probably due to heavily nested or infinitely recursive functioncalls. or a tail call that SBCL cannot or has not optimized away.PROCEED WITH CAUTION.|
 2. A report file of format `/report.csv` that will have the same information as the D2L grades export csv file with the difference being that the grades are updated accordingly. So for the example above, `/report.csv` will be as follows:
    ```
    Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indicator
