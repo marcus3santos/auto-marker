@@ -81,7 +81,7 @@ After using the tool, there would be two files generated in the same directory a
    ```
    Note:
    - If a student exists in the grades export but not in the submissions folder, then the grade in the `/report.csv` file would not be updated. So in this example, Alucard Vampireson and Timb Handerson did not submit a file, so their grade is not updated.
-   - Late assignment submissions reveive a zero score and a the following `Comment` in the log score: `Late assignemt submission`, or something to that effect.
+   - Late assignment submissions reveive a zero score and a the following comment in the log file: `Late assignemt submission`, or something to that effect.
 
 3. A Feedback folder that holds feedback files for students who have submitted a file and didn't get a full grade. The general structure is like this: Consider Timb Handerson who did not get a full grade. His feedback file will be as such:
 ```
