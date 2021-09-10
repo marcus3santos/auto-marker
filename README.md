@@ -84,25 +84,24 @@ After using the tool, there would be two files generated in the same directory a
    - Late assignment submissions reveive a zero score and a the following comment in the log file: `Late assignemt submission`, or something to that effect.
 
 3. A Feedback folder that holds feedback files for students who have submitted a file and didn't get a full grade. The general structure is like this: Consider Timb Handerson who did not get a full grade. His feedback file will be as such:
-```
-- Student name: Timb Handerson
+   ```
+   - Student name: Timb Handerson
 
-- Auto-Mark comment: OK
+   - Auto-Mark comment: OK
 
-- Auto-Mark description:
-No runtime errors
+   - Auto-Mark description:
+   No runtime errors
 
-- Test cases results:
-((Pass TEST-DEPOSIT (EQUAL (DEPOSIT 20) 130))
- (Pass TEST-DEPOSIT (EQUAL (DEPOSIT 10) 110))
- (Pass TEST-DEPOSIT (NOT (DEPOSIT 10001)))
- (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 60) 10))
- (Pass TEST-WITHDRAW (NOT (WITHDRAW 80)))
- (Pass TEST-WITHDRAW (NOT (WITHDRAW 10001)))
- (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 20) 70))
- (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))
-```
-
+   - Test cases results:
+   ((Pass TEST-DEPOSIT (EQUAL (DEPOSIT 20) 130))
+    (Pass TEST-DEPOSIT (EQUAL (DEPOSIT 10) 110))
+    (Pass TEST-DEPOSIT (NOT (DEPOSIT 10001)))
+    (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 60) 10))
+    (Pass TEST-WITHDRAW (NOT (WITHDRAW 80)))
+    (Pass TEST-WITHDRAW (NOT (WITHDRAW 10001)))
+    (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 20) 70))
+    (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))
+   ```
 4. A zipped version of the feedback folder. To be uploaded into D2L.
 
 # Preparing test cases
