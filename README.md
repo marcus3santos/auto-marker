@@ -56,7 +56,7 @@ where
 
 Below is an example of a command for marking *unzipped* student assignments due on November 26, 3:45 pm, located in the folder **/Users/m3santos/Google-Drive/tmp/auto-marker/Example-assignments-folder/**, and associating weights of 30 and 70 to test functions `test-fact` and `test-avg`, respectively:
 ```shell
-$ sbcl --noinform --load automrk.lisp --eval '(mark-assignments  "/Users/m3santos/Google-Drive/tmp/auto-marker/Example-assignments-folder/" nil  "/Users/m3santos/Google-Drive/tmp/auto-marker/sample-D2L-report.csv"  "/Users/m3santos/Google-Drive/tmp/auto-marker/test-cases-example.lisp" (quote (Nov 26 345 pm)) (quote ((test-fact 30) (test-avg 70))))' --quit
+$ sbcl --noinform --load automrk.lisp --eval '(mark-assignments  "/Users/m3santos/Google-Drive/tmp/auto-marker/Example-assignments-folder/" nil  "/Users/m3santos/Google-Drive/tmp/auto-marker/sample-D2L-report.csv"  "/Users/m3santos/Google-Drive/tmp/auto-marker/test-cases-example.lisp" (quote (Nov 26 0345 pm)) (quote ((test-fact 30) (test-avg 70))))' --quit
 ```
 ---
 ### Output
